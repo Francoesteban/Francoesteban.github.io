@@ -1,0 +1,28 @@
+body{
+    background-image: url(/img/Escenario.jpg);
+    background-size: 100%;
+}
+
+.ataques #ataqueAgua, #ataqueFuego, #ataqueHielo{
+    height: 300px;
+    width: 300px;
+}   
+
+.ataques, .defender{
+    margin-left: 20%;
+}
+
+.personajesjuego{
+    margin-left: 30%;
+}
+
+#enemigo {
+    height: 400px;
+    width: 400px;
+}
+
+.defender #defensaAgua, #defensaFuego, #defensaHielo{
+    height: 300px;
+    width: 300px;
+}
+

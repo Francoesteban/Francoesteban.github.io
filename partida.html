@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Partida</title>
+</head>
+<body>
+    
+    
+    <progress value="100" max="100" id="vidapersonaje" ></progress>
+    <progress value="100" max="100" id="vidaenemigo" ></progress>
+    
+    <div class="personajesjuego">
+        <img src="img/personaje.gif" alt="" id="personaje">
+        <img src="img/enemigo.webp" alt="" id="enemigo">
+    </div>
+    
+    
+    
+    <div class="ataques" id="ataques">
+        <!-- Ataque del jugador -->
+        <img onclick="aSeleccion('Ataque-Agua')" src="img/ataque-agua.gif"  alt="ataque agua" id="ataqueAgua">
+        <img onclick="aSeleccion('Ataque-Fuego')" src="img/ataque-fuego.webp"  alt="ataque fuego" id="ataqueFuego">
+        <img onclick="aSeleccion('Ataque-Hielo')" src="img/ataque-hielo.gif"  alt="ataque hielo" id="ataqueHielo">
+    </div>
+    
+    <div class="defender" id="defender">
+        <!-- Defensas del jugador -->
+        <img onclick="dSeleccion('Defensa-Agua')" src="img/escudo agua.webp" alt="defensa agua" id="defensaAgua">
+        <img onclick="dSeleccion('Defensa-Fuego')" src="img/escudofuego.png" alt="defensa fuego"  id="defensaFuego">
+        <img onclick="dSeleccion('Defensa-Hielo')" src="img/escudohielo.png" alt="defensa hielo"  id="defensaHielo">
+    </div>
+
+
+    <div class="mensajes" id="mensajes-juego"></div>
+</body>
+<script src="js/script.js"></script>
+</html>
